@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="text">Hello</p>
+<button onclick="change()">Change</button>
+<button onclick="toggle()">Show/Hide</button>
+
+<script>
+function change() {
+    document.getElementById("text").innerHTML = "Changed Text";
+}
+
+function toggle() {
+    let el = document.querySelector("#text");
+    el.style.display = el.style.display === "none" ? "block" : "none";
+}
+</script>
+
+</body>
+</html>
