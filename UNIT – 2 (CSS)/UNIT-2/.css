@@ -2,7 +2,7 @@
     color: green;
 }
 
-/* Box Model */
+
 .box {
     width: 200px;
     padding: 20px;
@@ -11,14 +11,14 @@
     background-image: linear-gradient(lightblue, white);
 }
 
-/* Selectors */
+
 #idSelector { color: red; }
 .classSelector { font-size: 20px; }
 div p { color: purple; }
 h1, h2, h3 { text-align: center; }
 * { font-family: Arial; }
 
-/* Responsive */
+
 @media (max-width: 600px) {
     body {
         background-color: lightgray;
